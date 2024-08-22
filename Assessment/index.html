@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Uttara Dani's Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="/images/U_D-id.png">
+  <link href="css/style.css" rel="stylesheet" type="text/css" </head>
+
+<body>
+  <div class="header-image">
+    <img src="images/WebHeader.jpg" alt="Uttara Dani's Web-header">
+  </div>
+
+  <!-- The Nav Bar goes here -->
+  <nav>
+    <ul>
+      <li id='active'><a href="index.html">Home</a></li>
+      <li><a href="imagecreation.html">Image Creation</a></li>
+      <li><a href="computerscience.html">Computer Science</a></li>
+      <li><a href="programming.html">Programming</a></li>
+      <li><a href="animation.html">Animation</a></li>
+      <li><a href="video.html">Video</a></li>
+      <li><a href="designformanufacture.html">D4M</a></li>
+      <li><a href="gamedesign.html">Game Design</a></li>
+
+    </ul>
+  </nav>
+
+  <!-- page heading- add name here! -->
+  <div>
+    <h1>Welcome ! </h1>
+  </div>
+
+  <!-- This is the container for all the images you want to add- it's a flexbox so add as many as you want -->
+  <div class='container'>
+    <!-- item 1 starts here-->
+    <div class='item'>
+      <img src="images/Cream_Canvas_Heart-Shaped_Photo_Collage (2).png" alt="A picture of me and my friends">
+      <div class='item-info'>
+        <!-- a brief explanation of what this picture is -->
+        <h5>Picture Of My Friends 💝</h5>
+      </div>
+    </div>
+    <!-- end of item 1 -->
+    <!-- item 2 starts here-->
+    <div class='item'>
+      <img src="images/Cream_Canvas_Heart-Shaped_Photo_Collage (1).png" alt="Timeline">
+      <div class='item-info'>
+        <!-- a brief explanation of what this picture is -->
+        <h5>Pictures Of My Family🥰💝</h5>
+      </div>
+    </div>
+    <!-- end of item 2 -->
+
+<meta Uttara="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: "Sofia", Lucida Handwriting;
+  <h1 class="font-effect-shadow-multiple">Multiple Shadow Effect </h1>
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 20%;
+  height: 20%;
+  text-align: center;
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 50px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<h2>Automatic Slideshow</h2>
+<p>Things I Want To Experience:</p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="images/Earth_Moon.jpg" 
+style="width:20%>
+  <div class="text">I Want To See The Earth Like This One Day</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="images/Long_Drives.jpg" style="width:20%">
+  <div class="text">I Like Going On Long Drives</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="images/Traveling_(1).jpg" style="width:20%">
+  <div class="text">I Would Like To Travel Around The World</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="images/Traveling_(2).jpg" style="width:20%">
+  <div class="text">Travel Anywhere</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="images/Rock_obsession.jpg" style="width:20%">
+  <div class="text">Used To Love Rocks A Lot</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="images/Your_Sunset.png" style="width:20%">
+  <div class="text">I Love Taking Photos</div>
+</div>
+  
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+    
+    <!-- now the Evaluation text box-->
+    <div>
+      <h3>About Me :</h3>
+      <p>
+        Hi! My name is Uttara! And as you can see I've put my best foot forward for My Website.<br><br>
+        My favourite colour is blue (as you can probaby tell). I have 3 favorite sports; Hockey, Badminton and
+        Volleyball. Also in DT I'm looking Forward to learn different types of coding languages, and also I want to be
+        able to finish making a Doraemon plushie that I wasn't able to make last year. (If I can that is)
+        <br><br>
+        At this stage I'm thinking of making a Gimp landscpe also using Inkscape - Vector graphic designs, and get cut
+        out as a Background Creation. Representing things I like, for my term 4 project.
+      </p>
+      <h3>Reflection on Creating a Website</h3>
+      <p>
+        Some things I've learnt about HTML & CSS so far is that if you miss even a slash or a dot things can go very
+        wrong. It's hard to find out where you've messed up but it's clear that you have. I started by adding personal
+        details about myself in the form of images and other information. And so I chose the complementary colors blue,
+        white and orange, as my color scheme because they stand out together and make the website look
+        astonishing.<br><br>
+        To be honest, at the start it was kinda hard to know or find out what should go where. But then afterwards it was gettng a bit easy easier, and halfway through I was getting different ideas of what I could add and stuff. I've tried adding an automatic slideshow, which didn't work properly at the start but I tried and tried so there it is. <br><br>
+      </p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <!-- change the text to credit you-->
+    <p>©Uttara Dani 2023</p>
+  </div>
+
+</body>
+
+</html>

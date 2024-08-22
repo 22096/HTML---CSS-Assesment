@@ -1,0 +1,84 @@
+/* global styling*/
+html{
+    font-family: "Sofia", Lucida Handwriting;
+    <h1> class="font-effect-shadow-multiple">Multiple Shadow Effect </h1>
+    margin: 0rem 2rem;
+}
+  
+  body {background-color: #c0fdfb;}
+  
+  
+  /* Styling for your header*/
+  .header-image img {
+    width: 100%;  
+    height: auto;  
+  }
+  
+  /* Styling for the image container and the items inside it */
+  .container{
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  
+  /*Items for all the screenshots and pictures of your stuff*/
+  .item{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 30%;
+    min-width: 8rem;
+    margin: auto;
+  }
+   .item-info{
+     padding: 0.1rem;
+     text-align: center;
+   }
+  
+  .item img{
+    width: 100%;
+  }
+  
+  /*the navbar styling goes here*/
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0077b6;
+    top: 0;
+    width: 100%;
+  }
+  
+  nav ul li{
+    float: left;
+    font-size: 1rem;
+  }
+  
+  nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li:hover{
+    background-color: #62246B;
+  }
+  
+  nav #active{
+    background-color: #FF926A;
+  }
+  
+  h1{
+    text-align: center;
+    display: block;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 1px;
+    text-align: center;
+    background: #023e8a;
+    width: 100%;
+    -webkit-text-fill-color: white;
+  }
+  
