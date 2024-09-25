@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand');
+
 /* global styling*/
 html{
     font-family: "Sofia", Lucida Handwriting;
@@ -76,6 +78,7 @@ html{
     text-align: center;
     display: block;
     font-size: 45px;
+    font-family: 'Quicksand';
     background-color: rgb(173, 216, 230);
   }
   
