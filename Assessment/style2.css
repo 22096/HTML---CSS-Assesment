@@ -1,0 +1,21 @@
+span {
+    margin: 0px;
+    text-align: center;
+
+}
+
+.menu-logo img{
+    max-height: 120px !important;
+    padding: 10px;
+}
+@media screen and (max-width: 770px) {
+    .menu-logo {
+        min-height: 40px;
+    }
+    .menu-logo img {
+        height: 80px;
+padding: 5px;
+        position: initial;
+    }
+}
+
