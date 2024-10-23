@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand');
+
+ div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+    background-image: URL(WEBh.png);
+  }
+
+h1 {
+    font-family: 'Quicksand';
+    font-size: 45px;
+}
+
+span {
+    font-size: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #00539B; /* Burnside High School's colors */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: rgb(0, 171, 142);
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: rgb(0, 78, 66);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
